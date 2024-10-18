@@ -9,11 +9,12 @@
 }
 
 .logo img{
+    /* padding-top: 10px; */
     padding-left: 20px;
 }
 
 .left_side{
-    width: 25vw;
+    width: 30vw;
     padding: 10px;
 }
 
@@ -63,4 +64,37 @@
 
 .img-invert{
     filter: invert(1);
+}
+
+.heading{
+    display: flex;
+    padding-top: 14px;
+    padding: 23px 25px;
+    gap: 7px;
+}
+
+.library{
+    margin-top: 10px;
+    min-height: 82vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 26px 0;
+    font-size: 11px;
+    
+
+
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+    /* gap: 50px; */
+    /* bottom: 0; */
+
 }
